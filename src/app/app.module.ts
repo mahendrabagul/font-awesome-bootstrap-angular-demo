@@ -4,12 +4,14 @@ import { AppComponent } from './app.component';
 import { AppNavbarComponent } from './app-navbar/app-navbar.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ProfileInfoComponent } from './profile-info/profile-info.component';
+import { PhotosComponent } from './photos/photos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AppNavbarComponent,
-    ProfileInfoComponent
+    ProfileInfoComponent,
+    PhotosComponent
   ],
   imports: [
     BrowserModule,
